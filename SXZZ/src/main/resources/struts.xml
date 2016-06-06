@@ -8,8 +8,11 @@
     <constant name="struts.enable.DynamicMethodInvocation" value="false" />
     <constant name="struts.devMode" value="false" />
 
-	<!-- 登录界面 -->
+	<!-- 后台登录界面 -->
     <package name="default" namespace="/" extends="struts-default">
+    	<action name="login">
+			<result>/WEB-INF/back/login.jsp</result>
+    	</action>
     </package>
     
     <include file="other.xml"></include>
