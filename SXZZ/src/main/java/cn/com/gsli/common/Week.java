@@ -1,4 +1,4 @@
-package common;
+package cn.com.gsli.common;
 
 public enum Week {
 

@@ -1,4 +1,4 @@
-package common;
+package cn.com.gsli.common;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

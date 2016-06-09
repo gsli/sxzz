@@ -6,9 +6,9 @@
 <struts>
 
     <constant name="struts.enable.DynamicMethodInvocation" value="false" />
-    <constant name="struts.devMode" value="true" />
-	<constant name="struts.objectFactory" value="spring"></constant>
-
+    <constant name="struts.devMode" value="false" />
+	<!-- <constant name="struts.objectFactory" value="spring"></constant>
+ -->
 	<!-- 后台登录界面 -->
     <package name="default" namespace="/" extends="struts-default">
     	<action name="login">
@@ -34,7 +34,7 @@
     	<action name="fdyjs">
     		<result>/WEB-INF/back/fdyjs.jsp</result>
     	</action>
-    	<action name="add_fdy" class="fdyjsAction" method="addInfo">
+    	<action name="add_fdy" class="fdyAction" method="addInfo">
     		<result>/WEB-INF/back/fdyjs.jsp</result>
     		<result name="error">/WEB-INF/back/fdyjs.jsp</result>
     	</action>
