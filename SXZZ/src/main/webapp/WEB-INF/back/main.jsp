@@ -1,16 +1,24 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>信息管理系统界面</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>后台管理系统界面</title>
 </head>
-<frameset rows="88,*" cols="*" frameborder="no" border="0" framespacing="0">
-  <!-- scrolling="No" --><frame src="top.html" name="topFrame" noresize="noresize" id="topFrame" title="topFrame" />
-  <frameset cols="187,*" frameborder="no" border="0" framespacing="0">
-    <!-- scrolling="No" --><frame src="left.html" name="leftFrame" noresize="noresize" id="leftFrame" title="leftFrame" />
-    <frame src="index.html" name="rightFrame" id="rightFrame" title="rightFrame" />
-  </frameset>
+<frameset rows="88,*" cols="*" frameborder="no" border="0"
+	framespacing="0">
+	<frame src="/SXZZ/Back/top" name="topFrame" scrolling="no" noresize="noresize" id="topFrame"
+		title="topFrame" />
+	<frameset cols="187,*" frameborder="no" border="0" framespacing="0">
+		<frame src="/SXZZ/Back/left" name="leftFrame" scrolling="no" noresize="noresize"
+			id="leftFrame" title="leftFrame" />
+		<frame src="/SXZZ/Back/index" name="rightFrame" id="rightFrame"
+			title="rightFrame" />
+	</frameset>
 </frameset>
-<noframes><body>
-</body></noframes>
+<noframes>
+	<body>
+	</body>
+</noframes>
 </html>

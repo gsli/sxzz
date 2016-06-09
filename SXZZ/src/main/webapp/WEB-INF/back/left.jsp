@@ -1,10 +1,12 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>无标题文档</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-<script language="JavaScript" src="js/jquery.js"></script>
+<link href="/SXZZ/back/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="/SXZZ/back/js/jquery.js"></script>
 
 <script type="text/javascript">
 $(function(){	
@@ -36,7 +38,7 @@ $(function(){
         
     <dd>
     <div class="title">
-    <span><img src="images/leftico01.png" /></span>管理信息
+    <span><img src="/SXZZ/back/images/leftico01.png" /></span>管理信息
     </div>
     	<ul class="menuson">
         <li><cite></cite><a href="index.html" target="rightFrame">首页模版</a><i></i></li>
@@ -55,17 +57,16 @@ $(function(){
     
     <dd>
     <div class="title">
-    <span><img src="images/leftico02.png" /></span>其他设置
+    <span><img src="/SXZZ/back/images/leftico02.png" /></span>管理员专区
     </div>
     <ul class="menuson">
-        <li><cite></cite><a href="#">编辑内容</a><i></i></li>
-        <li><cite></cite><a href="#">发布信息</a><i></i></li>
-        <li><cite></cite><a href="#">档案列表显示</a><i></i></li>
-        </ul>     
+        <li><cite></cite><a href="#">辅导员情况</a><i></i></li>
+        <li><cite></cite><a href="/SXZZ/Back/fdyjs" target="rightFrame">辅导员简介</a><i></i></li>
+    </ul>     
     </dd> 
     
     
-    <dd><div class="title"><span><img src="images/leftico03.png" /></span>编辑器</div>
+    <dd><div class="title"><span><img src="/SXZZ/back/images/leftico03.png" /></span>编辑器</div>
     <ul class="menuson">
         <li><cite></cite><a href="#">自定义</a><i></i></li>
         <li><cite></cite><a href="#">常用资料</a><i></i></li>
@@ -75,7 +76,7 @@ $(function(){
     </dd>  
     
     
-    <dd><div class="title"><span><img src="images/leftico04.png" /></span>日期管理</div>
+    <dd><div class="title"><span><img src="/SXZZ/back/images/leftico04.png" /></span>日期管理</div>
     <ul class="menuson">
         <li><cite></cite><a href="#">自定义</a><i></i></li>
         <li><cite></cite><a href="#">常用资料</a><i></i></li>

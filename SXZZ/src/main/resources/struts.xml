@@ -6,12 +6,57 @@
 <struts>
 
     <constant name="struts.enable.DynamicMethodInvocation" value="false" />
-    <constant name="struts.devMode" value="false" />
+    <constant name="struts.devMode" value="true" />
+	<constant name="struts.objectFactory" value="spring"></constant>
 
 	<!-- 后台登录界面 -->
     <package name="default" namespace="/" extends="struts-default">
     	<action name="login">
 			<result>/WEB-INF/back/login.jsp</result>
+    	</action>
+    </package>
+    
+    <!-- 后台管理界面 -->
+    <package name="back" namespace="/Back" extends="struts-default">
+    	<action name="main">
+    		<result>/WEB-INF/back/main.jsp</result>
+    	</action>
+    	<action name="top">
+    		<result>/WEB-INF/back/top.jsp</result>
+    	</action>
+    	<action name="left">
+    		<result>/WEB-INF/back/left.jsp</result>
+    	</action>
+    	<action name="index">
+    		<result>/WEB-INF/back/index.jsp</result>
+    	</action>
+    	<!-- 辅导员模块 -->
+    	<action name="fdyjs">
+    		<result>/WEB-INF/back/fdyjs.jsp</result>
+    	</action>
+    	<action name="add_fdy" class="fdyjsAction" method="addInfo">
+    		<result>/WEB-INF/back/fdyjs.jsp</result>
+    		<result name="error">/WEB-INF/back/fdyjs.jsp</result>
+    	</action>
+    </package>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- 前台首页 -->
+    <package name="fro" namespace="/Front" extends="struts-default">
+    	<action name="front">
+    		<result>/WEB-INF/front/frontMain.jsp</result>
     	</action>
     </package>
     
