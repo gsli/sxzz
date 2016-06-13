@@ -70,7 +70,6 @@ $(function(){
     <span><img src="/SXZZ/back/images/leftico02.png" /></span>内容管理
     </div>
     <ul class="menuson">
-<<<<<<< HEAD
         <li><cite></cite><a href="/SXZZ/Maintext/excute" target="rightFrame">内容添加</a><i></i></li>
         <li><cite></cite><a href="/SXZZ/Maintext/query" target="rightFrame">内容列表</a><i></i></li>
     </ul>     
@@ -79,31 +78,21 @@ $(function(){
     <div class="title">
     <span><img src="/SXZZ/back/images/leftico02.png" /></span>滚动图片管理
     </div>
-=======
-        <li><cite></cite><a href="#">自定义</a><i></i></li>
-        <li><cite></cite><a href="#">常用资料</a><i></i></li>
-        <li><cite></cite><a href="#">信息列表</a><i></i></li>
-        <li><cite></cite><a href="#">其他</a><i></i></li>
-    </ul>    
+        <ul class="menuson">
+        <li><cite></cite><a href="/SXZZ/mainimage/excute" target="rightFrame">滚动图片添加</a><i></i></li>
+        <li><cite></cite><a href="/SXZZ/mainimage/query" target="rightFrame">滚动图片删除</a><i></i></li>
+    </ul> 
     </dd>  
     
     
     <dd><div class="title"><span><img src="/SXZZ/back/images/leftico04.png" /></span>相关下载</div>
->>>>>>> refs/remotes/origin/dev
-    <ul class="menuson">
-<<<<<<< HEAD
-        <li><cite></cite><a href="/SXZZ/mainimage/excute" target="rightFrame">滚动图片添加</a><i></i></li>
-        <li><cite></cite><a href="/SXZZ/mainimage/query" target="rightFrame">滚动图片删除</a><i></i></li>
-    </ul>     
-    </dd> 
-=======
+        <ul class="menuson">
         <li><cite></cite><a href="/SXZZ/Back/openPage" target="rightFrame">上传文档资料</a><i></i></li>
         <li><cite></cite><a href="/SXZZ/Back/openImg" target="rightFrame">上传图片资料</a><i></i></li>
         <li><cite></cite><a href="/SXZZ/Back/openVedio" target="rightFrame">上传视频资料</a><i></i></li>
     </ul>
+    </dd> 
     
-    </dd>   
->>>>>>> refs/remotes/origin/dev
     
     </dl>
     

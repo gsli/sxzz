@@ -94,7 +94,7 @@
 		</action>
 	</package>
 	
-	
+	<!--前台 -->
 	<package name="front" namespace="/front" extends="struts-default">
     	<action name="front" class="frontAction" method="">
     		<result>/WEB-INF/front/frontMain.jsp</result>
