@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>辅导员简介</title>
+<title>辅导员信息修改</title>
 <link href="/SXZZ/back/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="/SXZZ/back/js/upload.js"></script>
 <script type="text/javascript">
@@ -20,7 +20,7 @@
 	<div class="place">
 		<span>位置：</span>
 		<ul class="placeul">
-			<li><a href="#">首页</a></li>
+			<li><a href="/SXZZ/Back/look_fdy">辅导员简介</a></li>
 			<li><a href="#">表单</a></li>
 		</ul>
 	</div>
@@ -28,23 +28,23 @@
 	<div class="formbody">
 
 		<div class="formtitle">
-			<span>请填写辅导员信息</span>
+			<span>请修改辅导员信息</span>
 		</div>
 
-		<form action="/SXZZ/Back/add_fdy" method="post" enctype="multipart/form-data">
+		<form action="/SXZZ/Back/upd_fdy?id=${request.fdy.id }&img=${request.fdy.image }" method="post" enctype="multipart/form-data">
 			<ul class="forminfo">
 				<li><label>辅导员姓名：</label>
-				<input name="name" type="text" class="dfinput" maxlength="20" /><i>姓名不得超过20字</i></li>
+				<input name="name" type="text" class="dfinput" value="${request.fdy.name }" maxlength="20" /><i>姓名不得超过20字</i></li>
 				<li><label>座右铭：</label>
-				<textarea name="motto" cols="" rows="" class="textinput"></textarea></li>
+				<textarea name="motto" class="textinput">${request.fdy.motto }</textarea></li>
 				<li><label>照&nbsp;片：</label> <img alt="辅导员照片"
-					src="/SXZZ/back/images/zanwutupian.jpg" id="img" width="300px"
+					src="/imgs/${request.fdy.image }" id="img" width="300px"
 					height="400px"> <input type="file" name="image"
 					onchange="previewImage(this,'img')"></li>
 				<li><label>个人简介：</label>
-				<textarea name="grjj" cols="" rows="" class="textinput"></textarea></li>
+				<textarea name="grjj" class="textinput">${request.fdy.grjj }</textarea></li>
 				<li><label>&nbsp;</label> 
-					<input type="submit" class="btn" value="确认保存" />
+					<input type="submit" class="btn" value="确认修改" />
 				</li>
 			</ul>
 		</form>

@@ -51,6 +51,13 @@ public class Fdy {
 		this.grjj = grjj;
 		this.image = image;
 	}
+	public Fdy(String name, String motto, String grjj, String image) {
+		super();
+		this.name = name;
+		this.motto = motto;
+		this.grjj = grjj;
+		this.image = image;
+	}
 	@Override
 	public String toString() {
 		return "Fdy [id=" + id + ", name=" + name + ", motto=" + motto + ", grjj=" + grjj + ", image=" + image + "]";
