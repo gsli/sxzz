@@ -8,7 +8,7 @@
     <constant name="struts.enable.DynamicMethodInvocation" value="false" />
     <constant name="struts.devMode" value="false" />
 	<constant name="struts.objectFactory" value="spring"></constant>
-	<constant name="struts.multipart.maxSize" value="55000000"/> <!-- 最大上传55000000B -->
+	<constant name="struts.multipart.maxSize" value="5500000000"/> <!-- 最大上传5500000000B -->
 
 	<!-- 后台登录界面 -->
     <package name="default" namespace="/" extends="struts-default">
@@ -88,7 +88,7 @@
 				application/zip,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
 				</param>
 				<!-- 配置允许上传的文件大小 单位字节 -->
-				<param name="maximumSize">10M</param>
+				<param name="maximumSize">100M</param>
     		</interceptor-ref>
     		<interceptor-ref name="defaultStack"/>
     	</action>
@@ -131,7 +131,7 @@
     			<!-- 配置允许上传的文件类型mp4,avi,wmv -->
 				<param name="allowedTypes">video/*</param>
 				<!-- 配置允许上传的文件大小 单位字节 500M=524288000B -->
-				<param name="maximumSize">500M</param>
+				<param name="maximumSize">524288000</param>
     		</interceptor-ref>
     		<interceptor-ref name="defaultStack"/>
     	</action>
