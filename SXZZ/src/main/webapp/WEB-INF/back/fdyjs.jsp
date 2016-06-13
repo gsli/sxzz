@@ -1,3 +1,4 @@
+<%@page import="com.opensymphony.xwork2.ActionContext"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -7,6 +8,12 @@
 <title>辅导员简介</title>
 <link href="/SXZZ/back/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="/SXZZ/back/js/upload.js"></script>
+<script type="text/javascript">
+	var mess = '${mess}';
+	if(mess.length > 3) {
+		alert(mess);
+	}
+</script>
 </head>
 
 <body>

@@ -7,8 +7,9 @@
 
     <constant name="struts.enable.DynamicMethodInvocation" value="false" />
     <constant name="struts.devMode" value="false" />
-	<!-- <constant name="struts.objectFactory" value="spring"></constant>
- -->
+	<constant name="struts.objectFactory" value="spring"></constant>
+	<constant name="struts.multipart.maxSize" value="55000000"/> <!-- 最大上传55000000B -->
+
 	<!-- 后台登录界面 -->
     <package name="default" namespace="/" extends="struts-default">
     	<action name="login">
@@ -37,6 +38,108 @@
     	<action name="add_fdy" class="fdyAction" method="addInfo">
     		<result>/WEB-INF/back/fdyjs.jsp</result>
     		<result name="error">/WEB-INF/back/fdyjs.jsp</result>
+    	</action>
+    	<action name="look_fdy" class="fdyAction" method="lookFdy">
+    		<result>/WEB-INF/back/fdy_look.jsp</result>
+    	</action>
+    	<action name="del_fdy" class="fdyAction" method="delFdy">
+    		<result type="redirectAction">
+    			<param name="actionName">look_fdy</param>
+    			<param name="namespace">Back</param>
+    		</result>
+    		<result name="error">/WEB-INF/back/error.jsp</result>
+    	</action>
+    	<action name="xx_fdy" class="fdyAction" method="xxFdy">
+    		<result>/WEB-INF/back/fdy_xx.jsp</result>
+    	</action>
+    	<action name="xg_fdy" class="fdyAction" method="xgFdy">
+    		<result>/WEB-INF/back/fdy_xg.jsp</result>
+    	</action>
+    	<action name="upd_fdy" class="fdyAction" method="updFdy">
+    		<result type="redirectAction">
+    			<param name="actionName">look_fdy</param>
+    			<param name="namespace">Back</param>
+    		</result>
+    		<result name="error">
+    			<param name="actionName">xg_fdy</param>
+    			<param name="namespace">Back</param>
+    		</result>
+    	</action>
+    	<action name="mulDel_fdy" class="fdyAction" method="mulDel">
+    		<result type="redirectAction">
+    			<param name="actionName">look_fdy</param>
+    			<param name="namespace">Back</param>
+    		</result>
+    	</action>
+    	
+   <!-- 相关下载 -->
+   <action name="openPage" class="fileAction" method="openPage">
+   	<result>/WEB-INF/back/upload_word.jsp</result>
+   </action>
+    	<!-- 文档上传 -->
+    	<action name="upload_word" class="fileAction" method="uploadWord">
+    		<result>/WEB-INF/back/upload_word.jsp</result>
+    		<result name="error">/WEB-INF/back/error_word.jsp</result>
+    		<interceptor-ref name="fileUpload">
+    			<!-- 配置允许上传的文件类型xls,doc,txt,docx,ppt,pdf,rar,pptx,zip,xlsx -->
+				<param name="allowedTypes">application/vnd.ms-excel,application/msword,text/plain,
+				application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.ms-powerpoint,
+				application/pdf,application/octet-stream,application/vnd.openxmlformats-officedocument.presentationml.presentation,
+				application/zip,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+				</param>
+				<!-- 配置允许上传的文件大小 单位字节 -->
+				<param name="maximumSize">10M</param>
+    		</interceptor-ref>
+    		<interceptor-ref name="defaultStack"/>
+    	</action>
+    	<action name="delWord" class="fileAction" method="delWord">
+    		<result type="redirectAction">
+    			<param name="actionName">openPage</param>
+    			<param name="namespace">Back</param>
+    		</result>
+    	</action>
+    	<!-- 图片上传 -->
+    	<action name="openImg" class="fileAction" method="openImg">
+   			<result>/WEB-INF/back/upload_img.jsp</result>
+   		</action>
+    	<action name="upload_img" class="fileAction" method="uploadImg">
+    		<result>/WEB-INF/back/upload_img.jsp</result>
+    		<result name="error">/WEB-INF/back/error_word.jsp</result>
+    		<interceptor-ref name="fileUpload">
+    			<!-- 配置允许上传的文件类型bmp,(jpg,jpeg),gif,png -->
+				<param name="allowedTypes">image/*</param>
+				<!-- 配置允许上传的文件大小 单位字节-->
+				<param name="maximumSize">5M</param>
+    		</interceptor-ref>
+    		<interceptor-ref name="defaultStack"/>
+    	</action>
+    	<action name="delImg" class="fileAction" method="delImg">
+    		<result type="redirectAction">
+    			<param name="actionName">openImg</param>
+    			<param name="namespace">Back</param>
+    		</result>
+    	</action>
+    	<!-- 视频上传 -->
+    	<action name="openVedio" class="fileAction" method="openVedio">
+   			<result>/WEB-INF/back/upload_video.jsp</result>
+   		</action>
+   		
+    	<action name="upload_video" class="fileAction" method="uploadVedio">
+    		<result>/WEB-INF/back/upload_video.jsp</result>
+    		<result name="error">/WEB-INF/back/error_word.jsp</result>
+    		<interceptor-ref name="fileUpload">
+    			<!-- 配置允许上传的文件类型mp4,avi,wmv -->
+				<param name="allowedTypes">video/*</param>
+				<!-- 配置允许上传的文件大小 单位字节 500M=524288000B -->
+				<param name="maximumSize">500M</param>
+    		</interceptor-ref>
+    		<interceptor-ref name="defaultStack"/>
+    	</action>
+    	<action name="delVedio" class="fileAction" method="delVedio">
+    		<result type="redirectAction">
+    			<param name="actionName">openVedio</param>
+    			<param name="namespace">Back</param>
+    		</result>
     	</action>
     </package>
     

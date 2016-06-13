@@ -57,11 +57,12 @@ $(function(){
     
     <dd>
     <div class="title">
-    <span><img src="/SXZZ/back/images/leftico02.png" /></span>管理员专区
+    <span><img src="/SXZZ/back/images/leftico02.png" /></span>辅导员专区
     </div>
     <ul class="menuson">
         <li><cite></cite><a href="#">辅导员情况</a><i></i></li>
-        <li><cite></cite><a href="/SXZZ/Back/fdyjs" target="rightFrame">辅导员简介</a><i></i></li>
+        <li><cite></cite><a href="/SXZZ/Back/fdyjs" target="rightFrame">填写辅导员简介</a><i></i></li>
+        <li><cite></cite><a href="/SXZZ/Back/look_fdy" target="rightFrame">浏览修改辅导员信息</a><i></i></li>
     </ul>     
     </dd> 
     
@@ -76,12 +77,11 @@ $(function(){
     </dd>  
     
     
-    <dd><div class="title"><span><img src="/SXZZ/back/images/leftico04.png" /></span>日期管理</div>
+    <dd><div class="title"><span><img src="/SXZZ/back/images/leftico04.png" /></span>相关下载</div>
     <ul class="menuson">
-        <li><cite></cite><a href="#">自定义</a><i></i></li>
-        <li><cite></cite><a href="#">常用资料</a><i></i></li>
-        <li><cite></cite><a href="#">信息列表</a><i></i></li>
-        <li><cite></cite><a href="#">其他</a><i></i></li>
+        <li><cite></cite><a href="/SXZZ/Back/openPage" target="rightFrame">上传文档资料</a><i></i></li>
+        <li><cite></cite><a href="/SXZZ/Back/openImg" target="rightFrame">上传图片资料</a><i></i></li>
+        <li><cite></cite><a href="/SXZZ/Back/openVedio" target="rightFrame">上传视频资料</a><i></i></li>
     </ul>
     
     </dd>   
