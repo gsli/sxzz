@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.gsli">
+<!-- 添加辅导员信息 -->
+	<insert id="addFdy" parameterType="cn.com.gsli.model.fdyzq.Fdy">
+		insert into fdy(name,motto,grjj,image) values(#{name},#{motto},#{grjj},#{image})
+	</insert>
+<!-- 查询所有辅导员信息 -->
+	<select id="allFdy" resultType="cn.com.gsli.model.fdyzq.Fdy">
+		select * from fdy
+	</select>
+<!-- 删除辅导员信息 -->
+	<delete id="delFdy" parameterType="int">
+		delete from fdy where id=#{id}
+	</delete>
+<!-- 查询某辅导员信息 -->
+	<select id="xxFdy" parameterType="int" resultType="cn.com.gsli.model.fdyzq.Fdy">
+		select * from fdy where id=#{id}
+	</select>
+<!-- 修改辅导员信息 -->
+	<update id="updFdy" parameterType="cn.com.gsli.model.fdyzq.Fdy">
+		update fdy set name=#{name}, image=#{image},motto=#{motto},grjj=#{grjj} where id=#{id}
+	</update>
+<!-- 分页查询 -->
+	<select id="pageFdy" parameterType="map" resultType="cn.com.gsli.model.fdyzq.Fdy">
+		select * from fdy limit #{startPage},#{size}
+	</select>
+</mapper>

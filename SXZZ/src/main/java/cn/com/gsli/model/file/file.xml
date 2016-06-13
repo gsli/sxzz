@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.gsli">
+	<insert id="addFile" parameterType="cn.com.gsli.model.file.UploadFile">
+		insert into upload(name,fileName,uploadDate,type) values(#{name},#{fileName},#{uploadDate},#{type})
+	</insert>
+	
+	<select id="allFile" parameterType="int" resultType="cn.com.gsli.model.file.UploadFile">
+		select * from upload where type=#{type}
+	</select>
+	
+	<select id="pageFile" parameterType="map" resultType="cn.com.gsli.model.file.UploadFile">
+		select * from upload where type=#{type} order by id desc limit #{startPage},#{size}
+	</select>
+	
+	<delete id="delFile" parameterType="int">
+		delete from upload where id=#{id}
+	</delete>
+</mapper>
