@@ -31,7 +31,25 @@ public class FrontAction extends ActionSupport implements RequestAware{
 		pageModel=mainTextService.typePage(1, 8, 3);
 		request.put("xydt", pageModel);
 		pageModel=mainTextService.typePage(1, 8, 3);
+		request.put("ahzy", pageModel);
+		pageModel=mainTextService.typePage(1, 8, 3);
+		request.put("xszc", pageModel);
+		pageModel=mainTextService.typePage(1, 8, 3);
+		request.put("flfg", pageModel);
+		pageModel=mainTextService.typePage(1, 8, 3);
+		request.put("alfx", pageModel);
+		pageModel=mainTextService.typePage(1, 8, 3);
+		request.put("zyfw", pageModel);
+		pageModel=mainTextService.typePage(1, 8, 3);
+		request.put("shsj", pageModel);
+		pageModel=mainTextService.typePage(1, 8, 3);
+		request.put("jddd", pageModel);
+		pageModel=mainTextService.typePage(1, 8, 3);
+		request.put("ypxs", pageModel);
+		pageModel=mainTextService.typePage(1, 8, 3);
 		request.put("xydt", pageModel);
+		pageModel=mainTextService.typePage(1, 8, 3);
+		request.put("hdsp", pageModel);
 		
 		return SUCCESS;
 	}
