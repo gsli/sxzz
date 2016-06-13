@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>甘肃政法学院大学生思想政治网</title>
 
 <link type="text/css" href="/SXZZ/front/css/base.min.css"
 	rel="stylesheet">
@@ -18,1310 +18,23 @@
 	rel="stylesheet">
 <link type="text/css" href="/SXZZ/front/css/webRightBar.min.css"
 	rel="stylesheet">
-
-
-<style id="stylemodule">
-#module313 {
-	height: 264px;
-}
-
-#module313 .contentLineIcon {
-	*padding: 0;
-}
-
-#module313 .contentLineIcon {
-	*width: 0;
-}
-
-#module313 .top_with_line_icon {
-	padding-left: 25px;
-}
-
-#module313 .contentLineIcon {
-	width: 0px
-}
-
-#module319 {
-	height: 240px;
-}
-
-#module319 {
-	border: none;
-}
-
-#module319 {
-	padding: 0px;
-}
-
-#module319 .formMiddle319 {
-	border: none;
-}
-
-#module319 .formMiddle319 {
-	padding: 0px;
-}
-
-#module319 .formMiddle319 .formMiddleCenter319 {
-	border: none;
-}
-
-#module319 .formMiddle319 .formMiddleCenter319 {
-	padding: 0px;
-}
-
-#module319 .formTop319 {
-	display: none;
-}
-
-#module319 .formBottom319 {
-	display: none;
-}
-
-#module319 .formMiddle319 .formMiddleLeft319 {
-	display: none;
-}
-
-#module319 .formMiddle319 .formMiddleRight319 {
-	display: none;
-}
-
-#module319 .formBanner319 {
-	display: none;
-}
-
-#module319 .formMiddleContent319 {
-	padding: 0px;
-}
-
-#module319 .formMiddleContent319 {
-	margin-left: 0px;
-}
-
-#module319 .formMiddleContent319 {
-	margin-right: 0px;
-}
-
-#module319 .formMiddleContent319 {
-	margin-top: 0px;
-}
-
-#module319 .formMiddleContent319 {
-	margin-bottom: 0px;
-}
-
-#module319 .contentLineIcon {
-	*padding: 0;
-}
-
-#module319 .contentLineIcon {
-	*width: 0;
-}
-
-#module320 {
-	border: none;
-}
-
-#module320 {
-	padding: 0px;
-}
-
-#module320 .formMiddle320 {
-	border: none;
-}
-
-#module320 .formMiddle320 {
-	padding: 0px;
-}
-
-#module320 .formMiddle320 .formMiddleCenter320 {
-	border: none;
-}
-
-#module320 .formMiddle320 .formMiddleCenter320 {
-	padding: 0px;
-}
-
-#module320 .formTop320 {
-	display: none;
-}
-
-#module320 .formBottom320 {
-	display: none;
-}
-
-#module320 .formMiddle320 .formMiddleLeft320 {
-	display: none;
-}
-
-#module320 .formMiddle320 .formMiddleRight320 {
-	display: none;
-}
-
-#module320 .formBanner320 {
-	display: none;
-}
-
-#module320 .contentLineIcon {
-	*padding: 0;
-}
-
-#module320 .contentLineIcon {
-	*width: 0;
-}
-
-#module320 .top_with_line_icon {
-	padding-left: 25px;
-}
-
-#module320 .contentLineIcon {
-	width: 0px
-}
-
-#module321 .contentLineIcon {
-	*padding: 0;
-}
-
-#module321 .contentLineIcon {
-	*width: 0;
-}
-
-#module321 .top_with_line_icon {
-	padding-left: 25px;
-}
-
-#module321 .contentLineIcon {
-	width: 0px
-}
-
-#module334 {
-	height: 235px;
-}
-
-#module334 {
-	border: none;
-}
-
-#module334 {
-	padding: 0px;
-}
-
-#module334 .formMiddle334 {
-	border: none;
-}
-
-#module334 .formMiddle334 {
-	padding: 0px;
-}
-
-#module334 .formMiddle334 .formMiddleCenter334 {
-	border: none;
-}
-
-#module334 .formMiddle334 .formMiddleCenter334 {
-	padding: 0px;
-}
-
-#module334 .formTop334 {
-	display: none;
-}
-
-#module334 .formBottom334 {
-	display: none;
-}
-
-#module334 .formMiddle334 .formMiddleLeft334 {
-	display: none;
-}
-
-#module334 .formMiddle334 .formMiddleRight334 {
-	display: none;
-}
-
-#module334 .formBanner334 {
-	display: none;
-}
-
-#module334 .formMiddleContent334 {
-	padding: 0px;
-}
-
-#module334 .formMiddleContent334 {
-	margin-left: 0px;
-}
-
-#module334 .formMiddleContent334 {
-	margin-right: 0px;
-}
-
-#module334 .formMiddleContent334 {
-	margin-top: 0px;
-}
-
-#module334 .formMiddleContent334 {
-	margin-bottom: 0px;
-}
-
-#module334 .contentLineIcon {
-	*padding: 0;
-}
-
-#module334 .contentLineIcon {
-	*width: 0;
-}
-
-#module335 .contentLineIcon {
-	*padding: 0;
-}
-
-#module335 .contentLineIcon {
-	*width: 0;
-}
-
-#module335 .top_with_line_icon {
-	padding-left: 25px;
-}
-
-#module335 .contentLineIcon {
-	width: 0px
-}
-
-#module336 .contentLineIcon {
-	*padding: 0;
-}
-
-#module336 .contentLineIcon {
-	*width: 0;
-}
-
-#module336 .top_with_line_icon {
-	padding-left: 25px;
-}
-
-#module336 .contentLineIcon {
-	width: 0px
-}
-
-#module327 {
-	height: 475px;
-}
-
-#module327 {
-	border: none;
-}
-
-#module327 {
-	padding: 0px;
-}
-
-#module327 .formMiddle327 {
-	border: none;
-}
-
-#module327 .formMiddle327 {
-	padding: 0px;
-}
-
-#module327 .formMiddle327 .formMiddleCenter327 {
-	border: none;
-}
-
-#module327 .formMiddle327 .formMiddleCenter327 {
-	padding: 0px;
-}
-
-#module327 .formTop327 {
-	display: none;
-}
-
-#module327 .formBottom327 {
-	display: none;
-}
-
-#module327 .formMiddle327 .formMiddleLeft327 {
-	display: none;
-}
-
-#module327 .formMiddle327 .formMiddleRight327 {
-	display: none;
-}
-
-#module327 .formBanner327 {
-	display: none;
-}
-
-#module327 .formMiddleContent327 {
-	padding: 0px;
-}
-
-#module327 .formMiddleContent327 {
-	margin-left: 0px;
-}
-
-#module327 .formMiddleContent327 {
-	margin-right: 0px;
-}
-
-#module327 .formMiddleContent327 {
-	margin-top: 0px;
-}
-
-#module327 .formMiddleContent327 {
-	margin-bottom: 0px;
-}
-
-#module327 .contentLineIcon {
-	*padding: 0;
-}
-
-#module327 .contentLineIcon {
-	*width: 0;
-}
-
-#module327 {
-	background: none;
-}
-
-#module327 .formMiddle327 {
-	background: none;
-}
-
-#module327 .formMiddle327 .formMiddleCenter327 {
-	background: none;
-}
-
-#module327 .formMiddleContent327 {
-	background: none;
-}
-
-#module340 {
-	height: 205px;
-}
-
-#module340 {
-	border: none;
-}
-
-#module340 {
-	padding: 0px;
-}
-
-#module340 .formMiddle340 {
-	border: none;
-}
-
-#module340 .formMiddle340 {
-	padding: 0px;
-}
-
-#module340 .formMiddle340 .formMiddleCenter340 {
-	border: none;
-}
-
-#module340 .formMiddle340 .formMiddleCenter340 {
-	padding: 0px;
-}
-
-#module340 .formTop340 {
-	display: none;
-}
-
-#module340 .formBottom340 {
-	display: none;
-}
-
-#module340 .formMiddle340 .formMiddleLeft340 {
-	display: none;
-}
-
-#module340 .formMiddle340 .formMiddleRight340 {
-	display: none;
-}
-
-#module340 .formBanner340 {
-	display: none;
-}
-
-#module340 .formMiddleContent340 {
-	padding: 0px;
-}
-
-#module340 .formMiddleContent340 {
-	margin-left: 0px;
-}
-
-#module340 .formMiddleContent340 {
-	margin-right: 0px;
-}
-
-#module340 .formMiddleContent340 {
-	margin-top: 0px;
-}
-
-#module340 .formMiddleContent340 {
-	margin-bottom: 0px;
-}
-
-#module340 .contentLineIcon {
-	*padding: 0;
-}
-
-#module340 .contentLineIcon {
-	*width: 0;
-}
-
-#module343 .contentLineIcon {
-	*padding: 0;
-}
-
-#module343 .contentLineIcon {
-	*width: 0;
-}
-
-#module343 .top_with_line_icon {
-	padding-left: 25px;
-}
-
-#module343 .contentLineIcon {
-	width: 0px
-}
-
-#module341 .contentLineIcon {
-	*padding: 0;
-}
-
-#module341 .contentLineIcon {
-	*width: 0;
-}
-
-#module341 .top_with_line_icon {
-	padding-left: 25px;
-}
-
-#module341 .contentLineIcon {
-	width: 0px
-}
-
-#module342 .contentLineIcon {
-	*padding: 0;
-}
-
-#module342 .contentLineIcon {
-	*width: 0;
-}
-
-#module342 .top_with_line_icon {
-	padding-left: 25px;
-}
-
-#module342 .contentLineIcon {
-	width: 0px
-}
-
-#module337 {
-	height: 205px;
-}
-
-#module337 {
-	border: none;
-}
-
-#module337 {
-	padding: 0px;
-}
-
-#module337 .formMiddle337 {
-	border: none;
-}
-
-#module337 .formMiddle337 {
-	padding: 0px;
-}
-
-#module337 .formMiddle337 .formMiddleCenter337 {
-	border: none;
-}
-
-#module337 .formMiddle337 .formMiddleCenter337 {
-	padding: 0px;
-}
-
-#module337 .formTop337 {
-	display: none;
-}
-
-#module337 .formBottom337 {
-	display: none;
-}
-
-#module337 .formMiddle337 .formMiddleLeft337 {
-	display: none;
-}
-
-#module337 .formMiddle337 .formMiddleRight337 {
-	display: none;
-}
-
-#module337 .formBanner337 {
-	display: none;
-}
-
-#module337 .formMiddleContent337 {
-	padding: 0px;
-}
-
-#module337 .formMiddleContent337 {
-	margin-left: 0px;
-}
-
-#module337 .formMiddleContent337 {
-	margin-right: 0px;
-}
-
-#module337 .formMiddleContent337 {
-	margin-top: 0px;
-}
-
-#module337 .formMiddleContent337 {
-	margin-bottom: 0px;
-}
-
-#module337 .contentLineIcon {
-	*padding: 0;
-}
-
-#module337 .contentLineIcon {
-	*width: 0;
-}
-
-#module338 .contentLineIcon {
-	*padding: 0;
-}
-
-#module338 .contentLineIcon {
-	*width: 0;
-}
-
-#module338 .top_with_line_icon {
-	padding-left: 25px;
-}
-
-#module338 .contentLineIcon {
-	width: 0px
-}
-
-#module339 .contentLineIcon {
-	*padding: 0;
-}
-
-#module339 .contentLineIcon {
-	*width: 0;
-}
-
-#module339 .top_with_line_icon {
-	padding-left: 25px;
-}
-
-#module339 .contentLineIcon {
-	width: 0px
-}
-
-#module329 {
-	height: 240px;
-}
-
-#module329 .contentLineIcon {
-	*padding: 0;
-}
-
-#module329 .contentLineIcon {
-	*width: 0;
-}
-
-#module329 .top_with_line_icon {
-	padding-left: 25px;
-}
-
-#module329 .contentLineIcon {
-	width: 0px
-}
-
-#module328 {
-	height: 240px;
-}
-
-#module328 .contentLineIcon {
-	*padding: 0;
-}
-
-#module328 .contentLineIcon {
-	*width: 0;
-}
-
-#module328 .top_with_line_icon {
-	padding-left: 25px;
-}
-
-#module328 .contentLineIcon {
-	width: 0px
-}
-
-#module307 {
-	height: 264px;
-}
-
-#module307 .contentLineIcon {
-	*padding: 0;
-}
-
-#module307 .contentLineIcon {
-	*width: 0;
-}
-
-#module307 .top_with_line_icon {
-	padding-left: 25px;
-}
-
-#module307 .contentLineIcon {
-	width: 0px
-}
-
-#module318 {
-	height: 264px;
-}
-
-#module318 .contentLineIcon {
-	*padding: 0;
-}
-
-#module318 .contentLineIcon {
-	*width: 0;
-}
-
-#module318 .top_with_line_icon {
-	padding-left: 25px;
-}
-
-#module318 .contentLineIcon {
-	width: 0px
-}
-
-#module311 .contentLineIcon {
-	*padding: 0;
-}
-
-#module311 .contentLineIcon {
-	*width: 0;
-}
-</style>
-<style id="styleHeaderTop" type="text/css">
-</style>
-
-<style id="styleWebSite" type="text/css">
-</style>
-<style id="stylenav" type="text/css">
-#nav {
-	width: 974px;
-}
-
-#nav .navMainContent {
-	width: 100%;
-}
-
-#nav .navContent {
-	width: 974px;
-}
-
-#nav .navContent {
-	background-size: contain;
-}
-
-#nav  .navLeft {
-	background-size: 100% 100%;
-}
-
-#nav  .navRight {
-	background-size: 100% 100%;
-}
-
-#nav  .navCenterContent {
-	background-size: contain;
-}
-
-#nav {
-	top: 102px;
-}
-
-#nav {
-	left: -7px;
-}
-
-#nav a {
-	text-decoration: none;
-}
-
-#nav a {
-	font-size: 17px;
-}
-
-#nav a {
-	font-weight: bolder;
-}
-
-#nav a {
-	font-family: SimSun;
-}
-
-#nav a {
-	color: #000;
-}
-
-#nav a {
-	text-shadow: none;
-}
-
-#nav a {
-	-webkit-text-shadow: none;
-}
-
-#nav a {
-	-o-text-shadow: none;
-}
-
-#nav a {
-	-ms-text-shadow: none;
-}
-
-#nav a {
-	-moz-text-shadow: none;
-}
-
-#nav a {
-	text-decoration: none;
-}
-
-#nav .itemHover a {
-	color: #000;
-}
-
-#nav .itemSelected a {
-	color: #000;
-}
-
-#nav .itemSep {
-	display: none;
-	width: 0;
-}
-
-.navSubMenu .item a {
-	text-decoration: none;
-}
-
-.navSubMenu .item a {
-	text-shadow: none;
-}
-
-.navSubMenu .item a {
-	font-size: 15px !important;
-}
-
-.navSubMenu .item a {
-	font-weight: normal;
-}
-
-.navSubMenu .item a {
-	text-align: center !important;
-}
-
-.navSubMenu .item a {
-	font-family: SimSun !important;
-}
-
-.navSubMenu .item a {
-	color: #000 !important;
-}
-
-.navSubMenu .itemHover a {
-	text-decoration: none !important;
-}
-
-.navSubMenu .itemHover a {
-	color: #000 !important;
-}
-
-.navSubMenu .itemHover .itemLeft {
-	background: none !important;
-}
-
-.navSubMenu .itemHover .itemCenter {
-	background: none !important;
-}
-
-.navSubMenu .itemHover .itemRight {
-	background: none !important;
-}
-
-.navSubMenu .center .itemHover {
-	background: #c00000 !important;
-}
-
-.navSubMenu .g_menu {
-	opacity: 0.80 !important;
-	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80) !important;
-}
-</style>
-
-
-
-
-
-
-<script type="text/javascript">
-(function(FUN, undefined){
-	var list = []; 
-	
-	FUN.run = function(){
-		if(arguments.length < 1){
-			throw new Error("jzUtils.run 参数错误");
-			return;
-		}
-		
-		var name = arguments[0].name, 
-			callMethod = arguments[0].callMethod || false, 
-			prompt = arguments[0].prompt || false, 
-			promptMsg = arguments[0].promptMsg || "功能还在加载中，请稍候", 
-			base = arguments[0].base || (window.Fai && Fai.top.Site) || top.Site || window, 
-			
-			args = Array.prototype.slice.call(arguments), 
-			funcArgs = args.slice(1), 
-			callbackFunc = {}, 
-			result; 
-
-		result = checkMethod(name, base);
-		if(result.success){
-			callMethod = false;
-			result.func.apply(result.func, funcArgs); 
-		}else{
-			if(prompt){
-				window.Fai && Fai.ing(promptMsg, true);
-			}
-		}
-		
-		
-		if(callMethod){
-			callbackFunc.name = name;
-			callbackFunc.base = base;
-			callbackFunc.args = funcArgs;
-			list.push(callbackFunc);
-		}
-	};
-	
-	
-	FUN.trigger = function(option){
-		if(typeof option !== "object"){
-			throw new Error("jzUtils.trigger 参数错误");
-			return;
-		}
-		
-		var funcName = option.name || "", 
-			base = option.base || (window.Fai && Fai.top.Site) || top.Site || window, 
-			newList = [], 
-			result, 
-			func, 
-			i, 
-			param; 
-		
-		if(funcName.length < 1){
-			return;
-		}
-		
-		
-		for(i = 0; i < list.length; i++){
-			param = list[i];
-			if(param.name == funcName){
-				result = checkMethod(funcName, base);
-				result.success && result.func.apply(result.func, param.args);
-			}else{
-				newList.push(param);
-			}
-		}
-		
-		list = newList;
-	};
-	
-	
-	function checkMethod(funcName, base){
-		var methodList = funcName.split("."), 
-			readyFunc = base, 
-			result = {
-				"success":true,
-				"func":function(){}
-			}, 
-			methodName, 
-			i;
-			
-		for(i = 0; i < methodList.length; i++){
-			methodName = methodList[i];
-			if(methodName in readyFunc){
-				readyFunc = readyFunc[methodName];
-			}else{
-				result.success = false;
-				return result;
-			}
-		}
-		
-		result.func = readyFunc;
-		return result; 
-	}
-})(window.jzUtils || (window.jzUtils = {}));
-</script>
-
-
-
-
-
-
-
-
-
-<style type="text/css" id="stylefooter">
-#footer .footerNav {
-	padding: 0 0px 0 0px;
-}
-
-#footer .footerInfo {
-	padding: 0 0px 0 0px;
-}
-
-#footer .footerSupport {
-	padding: 0 0px 0 0px;
-}
-
-#footer .visitorCounterWrap {
-	padding: 0 0px 0 0px;
-}
-
-#footer .footerContent {
-	padding-top: 79px;
-}
-
-#footer .footerContent {
-	padding-bottom: 0px;
-}
-
-#webFooterTable {
-	background: #dbdbdb;
-}
-
-#webFooterTable .webFooter {
-	background: none;
-}
-
-#webFooterTable .footer {
-	background: none;
-	border-color: transparent;
-}
-
-#webFooterTable .footerTop {
-	display: none;
-}
-
-#webFooterTable .middleLeft {
-	display: none;
-}
-
-#webFooterTable .middleCenter {
-	background: none;
-}
-
-#webFooterTable .footerContent {
-	background: none;
-}
-
-#webFooterTable .footerNav {
-	background: none;
-}
-
-#webFooterTable .footerInfo {
-	background: none;
-}
-
-#webFooterTable .footerSupport {
-	background: none;
-}
-
-#webFooterTable .middleRight {
-	display: none;
-}
-
-#webFooterTable .footerBottom {
-	display: none;
-}
-
-#webFooterTable li.footerItemSection {
-	width: 60px;
-}
-
-#webFooterTable li.footerItemSection {
-	height: 22px;
-}
-
-#webFooterTable li.footerItemSpacing {
-	height: 13px;
-}
-
-#webFooterTable li.footerItemSpacing {
-	padding-top: 5px;
-}
-
-#webFooterTable .footerItemSpacing_end {
-	display: none;
-}
-
-#webFooterTable .footerItemListContainer .fixWidth {
-	width: 48px;
-}
-</style>
+<link type="text/css" href="/SXZZ/front/css/style1.css" rel="stylesheet">
+<link type="text/css" href="/SXZZ/front/css/style2.css" rel="stylesheet">
+<link rel="stylesheet" href="/SXZZ/front/css/style.css">
+<script src='/SXZZ/front/js/jquery-1.8.3.min.js'></script>
+<script src="/SXZZ/front/js/index.js"></script>
 </head>
 <body class="g_body g_locale2052 ">
 	<div id="g_main" class="g_main g_col2 "
 		style="top: 0px; width: 1349px;">
-		<div id="web" class="g_web ">
-			<table class="webTopTable" cellpadding="0" cellspacing="0">
-				<tbody>
-					<tr>
-						<td align="center">
-							<div id="webTop" class="webTop"></div>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-
-			<table class="absTopTable" cellpadding="0" cellspacing="0">
-				<tbody>
-					<tr>
-						<td align="center">
-							<div id="absTopForms" class="forms sideForms absForms">
-								<div style="position: absolute;"></div>
-								<!-- for ie6 -->
-
-							</div>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-			<table class="webNavTable" cellpadding="0" cellspacing="0">
-				<tbody>
-					<tr>
-						<td align="center">
-							<div id="webNav" class="webNav webNavDefault">
-								<div id="nav" class="nav nav2 fixedNavPos ">
-									<div class="navMainContent">
-										<table class="navTop" cellpadding="0" cellspacing="0">
-											<tbody>
-												<tr>
-													<td class="navTopLeft"></td>
-													<td class="navTopCenter"></td>
-													<td class="navTopRight"></td>
-												</tr>
-											</tbody>
-										</table>
-										<table class="navContent" cellpadding="0" cellspacing="0">
-											<tbody>
-												<tr>
-													<td class="navLeft"></td>
-													<td class="navCenterContent" id="navCenterContent"
-														valign="top" align="left">
-														<div id="navCenter" class="navCenter"
-															style="width: 924px;">
-															<div class="itemPrev" style="display: none;"></div>
-															<div class="itemContainer">
-																<table title=""
-																	class="item itemCol2 itemIndex1 itemSelected itemSelectedIndex1"
-																	cellpadding="0" cellspacing="0" colid="2" id="nav2"
-																	onclick="window.open(&quot;/&quot;, &quot;_self&quot;)"
-																	_jump="window.open(&quot;/&quot;, &quot;_self&quot;)">
-																	<tbody>
-																		<tr>
-																			<td class="itemLeft"></td>
-																			<td class="itemCenter"><a hidefocus="true"
-																				style="outline: none;"
-																				href="./gaojiangwei_files/gaojiangwei.html"
-																				target="_self" onclick="return false;"><span
-																					class="itemName0">学校首页</span></a></td>
-																			<td class="itemRight"></td>
-																		</tr>
-																	</tbody>
-																</table>
-																<div class="itemSep"></div>
-																<table title="" class="item itemCol12 itemIndex2"
-																	cellpadding="0" cellspacing="0" colid="12" id="nav12"
-																	onclick="window.open(&quot;/pr.jsp&quot;, &quot;_self&quot;)"
-																	_jump="window.open(&quot;/pr.jsp&quot;, &quot;_self&quot;)">
-																	<tbody>
-																		<tr>
-																			<td class="itemLeft"></td>
-																			<td class="itemCenter"><a hidefocus="true"
-																				style="outline: none;"
-																				href="http://www.gaojiangwei.icoc.in/pr.jsp"
-																				target="_self" onclick="return false;"><span
-																					class="itemName0">学生处</span></a></td>
-																			<td class="itemRight"></td>
-																		</tr>
-																	</tbody>
-																</table>
-																<div class="itemSep"></div>
-																<table title="" class="item itemCol21 itemIndex3"
-																	cellpadding="0" cellspacing="0" colid="21" id="nav21"
-																	onclick="window.open(&quot;/nr.jsp&quot;, &quot;_self&quot;)"
-																	_jump="window.open(&quot;/nr.jsp&quot;, &quot;_self&quot;)">
-																	<tbody>
-																		<tr>
-																			<td class="itemLeft"></td>
-																			<td class="itemCenter"><a hidefocus="true"
-																				style="outline: none;"
-																				href="http://www.gaojiangwei.icoc.in/nr.jsp"
-																				target="_self" onclick="return false;"><span
-																					class="itemName0">政策法规</span></a></td>
-																			<td class="itemRight"></td>
-																		</tr>
-																	</tbody>
-																</table>
-																<div class="itemSep"></div>
-																<table title="" class="item itemCol13 itemIndex4"
-																	cellpadding="0" cellspacing="0" colid="13" id="nav13"
-																	onclick="window.open(&quot;/mcart.jsp&quot;, &quot;_self&quot;)"
-																	_jump="window.open(&quot;/mcart.jsp&quot;, &quot;_self&quot;)">
-																	<tbody>
-																		<tr>
-																			<td class="itemLeft"></td>
-																			<td class="itemCenter"><a hidefocus="true"
-																				style="outline: none;"
-																				href="http://www.gaojiangwei.icoc.in/mcart.jsp"
-																				target="_self" onclick="return false;"><span
-																					class="itemName0">国防教育</span></a></td>
-																			<td class="itemRight"></td>
-																		</tr>
-																	</tbody>
-																</table>
-																<div class="itemSep"></div>
-																<table title="" class="item itemCol17 itemIndex5"
-																	cellpadding="0" cellspacing="0" colid="17" id="nav17"
-																	onclick="window.open(&quot;/signup.jsp&quot;, &quot;_self&quot;)"
-																	_jump="window.open(&quot;/signup.jsp&quot;, &quot;_self&quot;)">
-																	<tbody>
-																		<tr>
-																			<td class="itemLeft"></td>
-																			<td class="itemCenter"><a hidefocus="true"
-																				style="outline: none;"
-																				href="http://www.gaojiangwei.icoc.in/signup.jsp"
-																				target="_self" onclick="return false;"><span
-																					class="itemName0">心灵驿站</span></a></td>
-																			<td class="itemRight"></td>
-																		</tr>
-																	</tbody>
-																</table>
-																<div class="itemSep"></div>
-																<table title="" class="item itemCol18 itemIndex6"
-																	cellpadding="0" cellspacing="0" colid="18" id="nav18"
-																	onclick="window.open(&quot;/login.jsp&quot;, &quot;_self&quot;)"
-																	_jump="window.open(&quot;/login.jsp&quot;, &quot;_self&quot;)">
-																	<tbody>
-																		<tr>
-																			<td class="itemLeft"></td>
-																			<td class="itemCenter"><a hidefocus="true"
-																				style="outline: none;"
-																				href="http://www.gaojiangwei.icoc.in/login.jsp"
-																				target="_self" onclick="return false;"><span
-																					class="itemName0">辅导员专区</span></a></td>
-																			<td class="itemRight"></td>
-																		</tr>
-																	</tbody>
-																</table>
-																<div class="itemSep"></div>
-																<table title="" class="item itemCol105 itemIndex7"
-																	cellpadding="0" cellspacing="0" colid="105" id="nav105"
-																	onclick="window.open(&quot;/col.jsp?id=105&quot;, &quot;_self&quot;)"
-																	_jump="window.open(&quot;/col.jsp?id=105&quot;, &quot;_self&quot;)">
-																	<tbody>
-																		<tr>
-																			<td class="itemLeft"></td>
-																			<td class="itemCenter"><a hidefocus="true"
-																				style="outline: none;"
-																				href="http://www.gaojiangwei.icoc.in/col.jsp?id=105"
-																				target="_self" onclick="return false;"><span
-																					class="itemName0">成才导航</span></a></td>
-																			<td class="itemRight"></td>
-																		</tr>
-																	</tbody>
-																</table>
-																<div class="itemSep"></div>
-																<table title="" class="item itemCol106 itemIndex8"
-																	cellpadding="0" cellspacing="0" colid="106" id="nav106"
-																	onclick="window.open(&quot;/col.jsp?id=106&quot;, &quot;_self&quot;)"
-																	_jump="window.open(&quot;/col.jsp?id=106&quot;, &quot;_self&quot;)">
-																	<tbody>
-																		<tr>
-																			<td class="itemLeft"></td>
-																			<td class="itemCenter"><a hidefocus="true"
-																				style="outline: none;"
-																				href="http://www.gaojiangwei.icoc.in/col.jsp?id=106"
-																				target="_self" onclick="return false;"><span
-																					class="itemName0">易班社区</span></a></td>
-																			<td class="itemRight"></td>
-																		</tr>
-																	</tbody>
-																</table>
-																<div class="itemSep"></div>
-																<table title="" class="item itemCol107 itemIndex9"
-																	cellpadding="0" cellspacing="0" colid="107" id="nav107"
-																	onclick="window.open(&quot;/col.jsp?id=107&quot;, &quot;_self&quot;)"
-																	_jump="window.open(&quot;/col.jsp?id=107&quot;, &quot;_self&quot;)">
-																	<tbody>
-																		<tr>
-																			<td class="itemLeft"></td>
-																			<td class="itemCenter"><a hidefocus="true"
-																				style="outline: none;"
-																				href="http://www.gaojiangwei.icoc.in/col.jsp?id=107"
-																				target="_self" onclick="return false;"><span
-																					class="itemName0">相关下载</span></a></td>
-																			<td class="itemRight"></td>
-																		</tr>
-																	</tbody>
-																</table>
-															</div>
-															<div class="itemNext" style="display: none;"></div>
-														</div>
-													</td>
-													<td class="navRight"></td>
-												</tr>
-											</tbody>
-										</table>
-										<table class="navBottom" cellpadding="0" cellspacing="0">
-											<tbody>
-												<tr>
-													<td class="navBottomLeft"></td>
-													<td class="navBottomCenter"></td>
-													<td class="navBottomRight"></td>
-												</tr>
-											</tbody>
-										</table>
-									</div>
-								</div>
-								<a href="http://www.gaojiangwei.icoc.in/msgBoard.jsp"
-									style="display: none;">国家政策</a><a
-									href="http://www.gaojiangwei.icoc.in/col.jsp?id=101"
-									style="display: none;">省上政策</a><a
-									href="http://www.gaojiangwei.icoc.in/col.jsp?id=102"
-									style="display: none;">学校政策</a><a
-									href="http://www.gaojiangwei.icoc.in/col.jsp?id=103"
-									style="display: none;">辅导员情况</a><a
-									href="http://www.gaojiangwei.icoc.in/col.jsp?id=104"
-									style="display: none;">辅导员简介</a>
-							</div>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+		<div id="web" class="g_web "
+			style="background-image: url(/SXZZ/front/image/background.png); background-repeat: repeat-x;">
+			<div>
+			
+			</div>
+			
+			
+			<!-- 导航位置 -->
 			<table class="webHeaderTable" cellpadding="0" cellspacing="0"
 				id="webHeaderTable">
 				<tbody>
@@ -1333,7 +46,30 @@
 										<tr>
 											<td class="headerCusLeft"></td>
 											<td class="headerCusMiddle" align="center" valign="top">
-												<div class="headerNav"></div>
+												<div class="headerNav">
+												<nav>
+			<ul class="dropdown">
+				<li><a href="#">学校首页</a></li>
+				<li><a href="#">学生处</a></li>
+				<li class="drop"><a href="#">政策法规</a>
+					<ul class="sub_menu">
+						<li><a href="#">国家政策</a></li>
+						<li><a href="#">省上政策</a></li>
+						<li><a href="#">学校政策</a></li>
+					</ul></li>
+				<li><a href="#">国防教育</a></li>
+				<li><a href="#">心灵驿站</a></li>
+				<li class="drop"><a href="#">辅导员专区</a>
+				<ul class="sub_menu">
+						<li><a href="#">辅导员情况</a></li>
+						<li><a href="#">辅导员简介</a></li>
+					</ul></li>
+				<li><a href="#">成才导航</a></li>
+				<li><a href="#">易班社区</a></li>
+				<li><a href="#">相关下载</a></li>
+			</ul>
+			</nav>
+												</div>
 											</td>
 											<td class="headerCusRight"></td>
 										</tr>
@@ -1344,7 +80,7 @@
 					</tr>
 				</tbody>
 			</table>
-
+			<!-- 滚动图片 -->
 			<table class="webBannerTable J_webBannerTable" cellpadding="0"
 				cellspacing="0">
 				<tbody>
@@ -1372,64 +108,10 @@
 															style="margin-left: 10px;"></span>
 													</div>
 													<div></div>
-													<div class="switchGroup "
-														style="width: 960px; position: relative; height: 640px; overflow: hidden; margin: 0px auto;">
-														<div class="arrowImg" id="arrowImg0"
-															style="position: absolute; width: 100%; left: -2880px; padding-top: 0px;">
-															<a class="J_bannerItem" hidefocus="true" title=""
-																href="javascript:;" target=""
-																style="width: 960px; height: 160px; cursor: default; overflow: hidden; display: block; outline: none; margin: 0px auto; position: relative; z-index: 1; background-image: url(http://0.ss.faisys.com/image/template/banners/2536.jpg?v=20151228); background-position: 50% 50%; background-repeat: no-repeat;"
-																onclick="return false;"> </a>
-														</div>
-														<div class="arrowImg" id="arrowImg1"
-															style="position: absolute; width: 100%; left: -1920px; padding-top: 0px;">
-															<a class="J_bannerItem" hidefocus="true" title=""
-																href="javascript:;" target=""
-																style="width: 960px; height: 160px; cursor: default; overflow: hidden; display: block; outline: none; margin: 0px auto; position: relative; z-index: 1; background-image: url(http://0.ss.faisys.com/image/template/banners/2529.jpg?v=20151228); background-position: 50% 50%; background-repeat: no-repeat;"
-																onclick="return false;"> </a>
-														</div>
-														<div class="arrowImg" id="arrowImg2"
-															style="position: absolute; width: 100%; left: -960px; padding-top: 0px;">
-															<a class="J_bannerItem" hidefocus="true" title=""
-																href="javascript:;" target=""
-																style="width: 960px; height: 160px; cursor: default; overflow: hidden; display: block; outline: none; margin: 0px auto; position: relative; z-index: 1; background-image: url(http://0.ss.faisys.com/image/template/banners/2522.jpg?v=20151228); background-position: 50% 50%; background-repeat: no-repeat;"
-																onclick="return false;"> </a>
-														</div>
-														<div class="arrowImg" id="arrowImg3"
-															style="position: absolute; width: 100%; left: 0px; padding-top: 0px;">
-															<a class="J_bannerItem" hidefocus="true" title=""
-																href="javascript:;" target=""
-																style="width: 960px; height: 160px; cursor: default; overflow: hidden; display: block; outline: none; margin: 0px auto; position: relative; z-index: 1; background-image: url(http://0.ss.faisys.com/image/template/banners/2293.jpg?v=20140903); background-position: 50% 50%; background-repeat: no-repeat;"
-																onclick="return false;"> </a>
-														</div>
-													</div>
 													<a class="imageSwitchBtn_arrow arrow_prev"
 														style="position: absolute; z-index: 3; left: 0px; top: 50%; margin-top: -35.5px;"></a><a
 														class="imageSwitchBtn_arrow arrow_next"
 														style="position: absolute; z-index: 3; right: 0px; top: 50%; margin-top: -35.5px;"></a>
-													<div class="effectShow" id="effectShow"
-														style="position: absolute; top: 0px; left: 0px; z-index: 1;">
-														<object id="effectShow_swf"
-															type="application/x-shockwave-flash"
-															data="http://0.ss.faisys.com/image/site/effects/7.swf?083db28f5a66e3a2ea54d4a75b5776e1"
-															width="960" height="160">
-															<param name="movie"
-																value="http://0.ss.faisys.com/image/site/effects/7.swf?083db28f5a66e3a2ea54d4a75b5776e1">
-															<param name="quality" value="high">
-															<param name="flashvars"
-																value="text1=&amp;text2=&amp;size1=undefined&amp;size2=undefined&amp;color1=0x000&amp;color2=0xFFFFFF&amp;style1=undefined&amp;style2=undefined">
-															<param name="wmode" value="transparent">
-															<embed name="effectShow_swf"
-																pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"
-																type="application/x-shockwave-flash"
-																classid="clsid:d27cdb6e-ae6d-11cf-96b8-4445535400000"
-																id="effectFlash"
-																src="http://0.ss.faisys.com/image/site/effects/7.swf?083db28f5a66e3a2ea54d4a75b5776e1"
-																wmode="transparent" quality="high" menu="false"
-																play="true" loop="true" width="960" height="160"
-																flashvars="text1=&amp;text2=&amp;size1=undefined&amp;size2=undefined&amp;color1=0x000&amp;color2=0xFFFFFF&amp;style1=undefined&amp;style2=undefined">
-														</object>
-													</div>
 													<div id="bannerGetHref" class="bannerGetHref"
 														style="position: absolute; top: 0px; left: 0px; width: 960px; height: 160px; z-index: 1; cursor: default; background: url(http://0.ss.faisys.com/image/site/transpace.png);"
 														onmouseover="Site.bannerInitHref();"
@@ -1448,23 +130,6 @@
 					</tr>
 				</tbody>
 			</table>
-
-			<table class="absMiddleTable" cellpadding="0" cellspacing="0">
-				<tbody>
-					<tr>
-						<td align="center">
-							<div id="absForms" class="forms sideForms absForms"></div>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-
-			<div id="fullmeasureTopForms"
-				class="fullmeasureContainer forms sideForms fullmeasureForms fullmeasureTopForms"
-				style="display: none">
-
-				<wbr style="display:none;">
-			</div>
 
 			<table id="webContainerTable" class="webContainerTable"
 				cellpadding="0" cellspacing="0">
@@ -1516,16 +181,6 @@
 																				_inmulmcol="0" _infullmeasure="0" _autoheight="0"
 																				_global="false" _independent="false"
 																				scrollinterval="1">
-																				<table class="formTop formTop313" cellpadding="0"
-																					cellspacing="0">
-																					<tbody>
-																						<tr>
-																							<td class="left"></td>
-																							<td class="center"></td>
-																							<td class="right"></td>
-																						</tr>
-																					</tbody>
-																				</table>
 																				<table class="formBanner formBanner313"
 																					cellpadding="0" cellspacing="0">
 																					<tbody>
@@ -1550,8 +205,7 @@
 																									</tbody>
 																								</table>
 																								<div class="formBannerOther formBannerOther313">
-																									<div class="formBannerMore formBannerMore313"
-																										style="">
+																									<div class="formBannerMore formBannerMore313">
 																										<span
 																											style="_display: inline-block; _position: relative;">
 																											<a hidefocus="true"
@@ -1583,15 +237,6 @@
 																										<div class="newsList " id="newsList313"
 																											_showsetting="0"
 																											style="position: relative; height: 155px; top: 0px;">
-
-
-
-
-
-
-
-
-
 
 																											<div class="clearfloat"></div>
 																											<div topclassname="top1" topswitch="on"
@@ -1887,16 +532,6 @@
 																																			<div class="newsList "
 																																				id="newsList321" _showsetting="0"
 																																				style="position: relative; height: 155px; top: 0px;">
-
-
-
-
-
-
-
-
-
-
 																																				<div class="clearfloat"></div>
 																																				<div topclassname="top1"
 																																					topswitch="on" newsid="10"
@@ -2124,15 +759,6 @@
 																																			<div class="newsList "
 																																				id="newsList320" _showsetting="0"
 																																				style="position: relative; height: 155px; top: 0px;">
-
-
-
-
-
-
-
-
-
 
 																																				<div class="clearfloat"></div>
 																																				<div topclassname="top1"
@@ -2488,16 +1114,6 @@
 																																			<div class="newsList "
 																																				id="newsList335" _showsetting="0"
 																																				style="position: relative; height: 155px; top: 0px;">
-
-
-
-
-
-
-
-
-
-
 																																				<div class="clearfloat"></div>
 																																				<div topclassname="top1"
 																																					topswitch="on" newsid="10"
@@ -2769,16 +1385,6 @@
 																																			<div class="newsList "
 																																				id="newsList336" _showsetting="0"
 																																				style="position: relative; height: 182px; top: 0px;">
-
-
-
-
-
-
-
-
-
-
 																																				<div class="clearfloat"></div>
 																																				<div topclassname="top1"
 																																					topswitch="on" newsid="7"
@@ -3076,24 +1682,6 @@
 																											<div class="newsList " id="newsList307"
 																												_showsetting="0"
 																												style="position: relative; height: 310px; top: -30.9403px;">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 																												<div topclassname="top1" topswitch="on"
 																													newsid="4" newsname="请编辑文章标题"
 																													class="line g_item wWLine  fk-newsLineHeight"
@@ -3463,26 +2051,6 @@
 																											<div class="newsList " id="newsList318"
 																												_showsetting="0"
 																												style="position: relative; height: 310px; top: 0px;">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 																												<div class="clearfloat"></div>
 																												<div topclassname="top1" topswitch="on"
 																													newsid="10" newsname="滴答滴答滴答滴答"
@@ -3900,16 +2468,6 @@
 																																						<div class="newsList "
 																																							id="newsList328" _showsetting="0"
 																																							style="position: relative; height: 155px; top: 0px;">
-
-
-
-
-
-
-
-
-
-
 																																							<div class="clearfloat"></div>
 																																							<div topclassname="top1"
 																																								topswitch="on" newsid="10"
@@ -4263,16 +2821,6 @@
 																																																id="newsList339"
 																																																_showsetting="0"
 																																																style="position: relative; height: 160px; top: 0px;">
-
-
-
-
-
-
-
-
-
-
 																																																<div class="clearfloat"></div>
 																																																<div topclassname="top1"
 																																																	topswitch="on"
@@ -4588,16 +3136,6 @@
 																																																id="newsList338"
 																																																_showsetting="0"
 																																																style="position: relative; height: 160px; top: 0px;">
-
-
-
-
-
-
-
-
-
-
 																																																<div class="clearfloat"></div>
 																																																<div topclassname="top1"
 																																																	topswitch="on"
@@ -4930,16 +3468,6 @@
 																																						<div class="newsList "
 																																							id="newsList329" _showsetting="0"
 																																							style="position: relative; height: 155px; top: 0px;">
-
-
-
-
-
-
-
-
-
-
 																																							<div class="clearfloat"></div>
 																																							<div topclassname="top1"
 																																								topswitch="on" newsid="10"
@@ -5301,16 +3829,6 @@
 																																																id="newsList341"
 																																																_showsetting="0"
 																																																style="position: relative; height: 160px; top: 0px;">
-
-
-
-
-
-
-
-
-
-
 																																																<div class="clearfloat"></div>
 																																																<div topclassname="top1"
 																																																	topswitch="on"
@@ -5626,16 +4144,6 @@
 																																																id="newsList342"
 																																																_showsetting="0"
 																																																style="position: relative; height: 160px; top: 0px;">
-
-
-
-
-
-
-
-
-
-
 																																																<div class="clearfloat"></div>
 																																																<div topclassname="top1"
 																																																	topswitch="on"
@@ -5951,16 +4459,6 @@
 																																																id="newsList343"
 																																																_showsetting="0"
 																																																style="position: relative; height: 160px; top: 0px;">
-
-
-
-
-
-
-
-
-
-
 																																																<div class="clearfloat"></div>
 																																																<div topclassname="top1"
 																																																	topswitch="on"
@@ -6228,8 +4726,6 @@
 																				</table>
 																				<div class="clearfloat clearfloat327"></div>
 																			</div>
-
-
 																		</div>
 																	</td>
 
@@ -6306,7 +4802,6 @@
 				<tbody>
 					<tr>
 						<td align="center" valign="top">
-
 							<div id="webFooter" class="webFooter">
 
 
@@ -6715,19 +5210,12 @@ Site.initMulColModuleInIE('#module327');
 	Site.initPage();	// 这个要放在最后，因为模块组初始化时会把一些模块隐藏，导致没有高度，所以要放最后执行
 
 	
-	
-	
 	setTimeout("afterModuleLoaded()", 0);
 
 	if( _manageMode ) {
 	
 		Site.initManagePage();
-		
-		
 	}
-
-	
-	
 
 	Site.triggerGobalEvent("siteReadyLoad");
 });
@@ -6780,16 +5268,12 @@ var _bannerData = _templateBannerData;
 
 var _mallOpen = false;
 
-
 var _navStyleChanged = 0;
 var _navItemOnCkOpen = false;					  // 有下级菜单不可点击
-var _navStyleData = {"no":true,"s":0,"ns":{"w":974,"h":-1},"cs":{"w":974,"h":-1},"np":{},"ncp":{"y":1,"t":102,"r":-1,"b":-1,"l":-7,"hl":189,"ht":102},"cp":{"y":0,"t":-1,"l":-1},"nis":{"w":-1,"h":-1},"gt":{"y":1,"f":"SimSun","s":17,"w":1,"c":"#000"},"ht":{"y":1,"c":"#000"},"nb":{"c":"#000","f":"","r":0,"p":"","y":0},"cb":{"c":"#000","f":"","r":0,"p":"","y":0},"nib":{"c":"#000","r":0,"f":"","p":"","y":0},"nihb":{"c":"#000","r":0,"f":"","p":"","y":0},"niss":{"w":0,"h":0},"nisb":{"c":"#000","r":0,"f":"","p":"","y":0},"nsigt":{"y":1,"f":"SimSun","s":15,"w":0,"c":"#000","ta":0},"nsiht":{"y":1,"c":"#000"},"nsis":{"w":-1,"h":-1},"nsib":{"c":"#ff835f","r":0,"f":"","p":"","y":0},"nsihb":{"y":2,"c":"#c00000","r":0,"f":"","p":""},"nsiho":20,"nmove":1,"v":2,"nrs":{"n":{"t":0},"c":{"t":0},"i":{"t":0},"si":{"t":0},"is":{"t":0},"sis":{"t":0}},"nsw":{"n":{"t":0},"c":{"t":0},"i":{"t":0},"si":{"t":0},"is":{"t":0},"sis":{"t":0}}};				      // 栏目导航样式
 var _navHidden =false;                                  //true:隐藏；flase：显示
 var _navPositionFixTop =  false;        		  // 导航栏固定到顶部
 var _navHeightChange = true;						  //导航栏高度改变，逻辑分界点2015-08-21
 var _siteDemo = false;
-
-
 
 var _backToTop = false;
 var _aid = 9853453;
@@ -6797,8 +5281,6 @@ var _cloneAid = 0;
 var _templateLayout = 1;
 var _webBannerHeight = -1;
 var _uiMode= false;
-
-
 
 </script>
 

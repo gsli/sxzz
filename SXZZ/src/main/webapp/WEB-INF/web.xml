@@ -5,7 +5,7 @@
   <!-- struts2控制器 -->
    <filter>
         <filter-name>struts2</filter-name>
-        <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+        <filter-class>cn.com.gsli.common.filter.MyStrutsFilter</filter-class>
     </filter>
 
     <filter-mapping>

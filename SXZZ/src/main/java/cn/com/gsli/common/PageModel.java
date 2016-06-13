@@ -10,6 +10,7 @@ public class PageModel<T> {
 	private Integer pageSize;
 	private Integer totalPage;
  	private Integer currentPage;
+ 	private Integer currentItem;
  	
 	public String getSql() {
 		return sql;
@@ -40,5 +41,11 @@ public class PageModel<T> {
 	}
 	public void setCurrentPage(Integer currentPage) {
 		this.currentPage = currentPage;
+	}
+	public Integer getCurrentItem() {
+		return currentItem;
+	}
+	public void setCurrentItem(Integer currentItem) {
+		this.currentItem = currentItem;
 	}
 }

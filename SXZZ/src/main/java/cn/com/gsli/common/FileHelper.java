@@ -11,8 +11,9 @@ import java.util.Date;
 import java.util.Random;
 
 public final class FileHelper {
-	public static final String root = "E:\\apache-tomcat-8.0.28\\webapps\\imgs";
-	public static final String filePath = "E:\\apache-tomcat-8.0.28\\webapps\\files";
+	public static final String root = "D:\\webWorkspace\\apache-tomcat-8.0.24\\webapps\\images";
+	//public static final String root = "E:\\apache-tomcat-8.0.28\\webapps\\imgs";
+	//public static final String filePath = "E:\\apache-tomcat-8.0.28\\webapps\\files";
 	public static String getRealFileName(String fileName){
         int start = fileName.lastIndexOf("\\");  
         String value ="";

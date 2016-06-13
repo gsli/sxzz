@@ -64,27 +64,24 @@ $(function(){
         <li><cite></cite><a href="/SXZZ/Back/fdyjs" target="rightFrame">辅导员简介</a><i></i></li>
     </ul>     
     </dd> 
-    
-    
-    <dd><div class="title"><span><img src="/SXZZ/back/images/leftico03.png" /></span>编辑器</div>
+     <dd>
+    <div class="title">
+    <span><img src="/SXZZ/back/images/leftico02.png" /></span>内容管理
+    </div>
     <ul class="menuson">
-        <li><cite></cite><a href="#">自定义</a><i></i></li>
-        <li><cite></cite><a href="#">常用资料</a><i></i></li>
-        <li><cite></cite><a href="#">信息列表</a><i></i></li>
-        <li><cite></cite><a href="#">其他</a><i></i></li>
-    </ul>    
-    </dd>  
-    
-    
-    <dd><div class="title"><span><img src="/SXZZ/back/images/leftico04.png" /></span>日期管理</div>
+        <li><cite></cite><a href="/SXZZ/Maintext/excute" target="rightFrame">内容添加</a><i></i></li>
+        <li><cite></cite><a href="/SXZZ/Maintext/query" target="rightFrame">内容列表</a><i></i></li>
+    </ul>     
+    </dd> 
+     <dd>
+    <div class="title">
+    <span><img src="/SXZZ/back/images/leftico02.png" /></span>滚动图片管理
+    </div>
     <ul class="menuson">
-        <li><cite></cite><a href="#">自定义</a><i></i></li>
-        <li><cite></cite><a href="#">常用资料</a><i></i></li>
-        <li><cite></cite><a href="#">信息列表</a><i></i></li>
-        <li><cite></cite><a href="#">其他</a><i></i></li>
-    </ul>
-    
-    </dd>   
+        <li><cite></cite><a href="/SXZZ/mainimage/excute" target="rightFrame">滚动图片添加</a><i></i></li>
+        <li><cite></cite><a href="/SXZZ/mainimage/query" target="rightFrame">滚动图片删除</a><i></i></li>
+    </ul>     
+    </dd> 
     
     </dl>
     

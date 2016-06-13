@@ -4,9 +4,100 @@
 	"http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
+	<package name="maintext" namespace="/Maintext" extends="struts-default">
+		<interceptors>
+			<interceptor-stack name="crud">
+				<interceptor-ref name="paramsPrepareParamsStack">
+					<param name="prepare.alwaysinvokePrepare">false</param>
+				</interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+		<action name="excute" class="mianTextAction" method="execute">
+			<result>/WEB-INF/back/addmaintext.jsp</result>
+		</action>
+		<action name="add" class="mianTextAction" method="add">
+			<result name="addSuccess">/WEB-INF/back/addmaintext.jsp</result>
+			<result name="addfail">/WEB-INF/back/error.jsp</result>
+		</action>
+		<action name="query" class="mianTextAction" method="query">
+			<result name="querySuccess">/WEB-INF/back/querymaintext.jsp</result>
+		</action>
+	
+	<!-- 删除配置 -->
+	<action name="delete" class="mianTextAction"
+		method="delete">
+		<interceptor-ref name="crud"></interceptor-ref>
+		<result name="deleteSuccess" type="redirectAction">
+			<param name="actionName">query.action</param>
+			<param name="namespace">/Maintext</param>
+		</result>
+		<result name="deleteFail">/WEB-INF/back/error.jsp</result>
+	</action>
+	<!-- 回显配置 -->
+	<action name="editor" class="mianTextAction"
+		method="editor">
+		<interceptor-ref name="crud"></interceptor-ref>
+		<result name="editorSuccess">/WEB-INF/back/updatemaintext.jsp</result>
+		<result name="editorFail">/WEB-INF/back/error.jsp</result>
+	</action>
+	<!-- 保存配置 -->
+	<action name="save" class="mianTextAction"
+		method="save">
+		<interceptor-ref name="crud"></interceptor-ref>
+		<result name="saveSuccess" type="redirectAction">
+			<param name="actionName">query.action</param>
+			<param name="namespace">/Maintext</param>
+		</result>
+	</action>
+</package>
 
-    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
-    <constant name="struts.devMode" value="false" />
+<!-- 轮播图片配置 -->
+	<package name="mainimage" namespace="/mainimage" extends="struts-default">
+		<interceptors>
+			<interceptor-stack name="crud">
+				<interceptor-ref name="paramsPrepareParamsStack">
+					<param name="prepare.alwaysinvokePrepare">false</param>
+				</interceptor-ref>
+			</interceptor-stack>
 
-
+			<interceptor-stack name="mystack">
+				<interceptor-ref name="defaultStack">
+					<!-- 配置文件上传的参数 -->
+					<!-- 单个文件的最大值 -->
+					<param name="fileUpload.maximumSize">1024000</param>
+					<!-- 允许的类型 -->
+					<param name="fileUpload.allowedTypes">image/png,image/jpeg</param>
+					<!-- 允许文件扩展名 -->
+					<param name="fileUpload.allowedExtensions">png,jpeg,jpg</param>
+				</interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="mystack"></default-interceptor-ref>
+		<action name="excute" class="mainImageAction">
+			<result>/WEB-INF/back/addmainimage.jsp</result>
+		</action>
+		<action name="add" class="mainImageAction" method="add">
+			<result name="addSuccess">/WEB-INF/back/addmainimage.jsp</result>
+			<result name="addFail">/WEB-INF/back/addmainimage.jsp</result>
+		</action>
+		<action name="query" class="mainImageAction" method="query">
+			<result name="querySuccess">/WEB-INF/back/deletemainimage.jsp</result>
+		</action>
+		<!-- 删除图片 -->
+		<action name="delete" class="mainImageAction" method="delete">
+			<interceptor-ref name="crud"></interceptor-ref>
+			<result name="deleteSuccess" type="redirectAction">
+				<param name="actionName">query</param>
+				<param name="namespace">/mainimage</param>
+			</result>
+			<result name="deleteFail">/WEB-INF/back/error.jsp</result>
+		</action>
+	</package>
+	
+	
+	<package name="front" namespace="/front" extends="struts-default">
+    	<action name="front" class="frontAction" method="">
+    		<result>/WEB-INF/front/frontMain.jsp</result>
+    	</action>
+    </package>
 </struts>
