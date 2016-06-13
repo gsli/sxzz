@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.gsli.model.mainimage.MainImageMapper">
+	<!-- 添加 -->
+	<insert id="add" parameterType="cn.com.gsli.model.mainimage.MainImage">
+		insert into mainimage(image) values(#{image})
+	</insert>
+	<!-- 查询全部 -->
+	<select id="queryAll" resultType="cn.com.gsli.model.mainimage.MainImage">
+		SELECT * FROM mainimage order by id desc
+	</select>
+	<!-- 根据id查询 -->
+	<select id="get" resultType="cn.com.gsli.model.mainimage.MainImage">
+		SELECT * FROM mainimage where id=#{id}
+	</select>
+	<!-- 根据类型分页查询 -->
+	<select id="queryPage" resultType="cn.com.gsli.model.mainimage.MainImage"
+	parameterType="cn.com.gsli.model.maintext.Help"
+	>
+		SELECT * FROM mainimage order by id desc limit #{currentItem},#{pageSize}
+	</select>
+	<!-- 删除 -->
+	<delete id="delete" parameterType="int">
+		delete from mainimage where id=#{id}
+	</delete>
+
+</mapper>

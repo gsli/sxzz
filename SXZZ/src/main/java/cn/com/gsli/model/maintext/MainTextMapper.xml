@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.gsli.model.maintext.MainTextMapper">
+	<!-- 添加 -->
+	<insert id="add" parameterType="cn.com.gsli.model.maintext.MainText">
+		insert into
+		maintext(title,context,date,type)
+		values(#{title},#{context},#{date},#{type})
+	</insert>
+	<!-- 根据类型查询 -->
+	<select id="queryType" resultType="cn.com.gsli.model.maintext.MainText">
+		SELECT * FROM maintext where type=#{type} order by id desc
+	</select>
+	<!-- 查询全部 -->
+	<select id="queryAll" resultType="cn.com.gsli.model.maintext.MainText">
+		SELECT * FROM maintext order by id desc
+	</select>
+	<!-- 根据id查询 -->
+	<select id="get" resultType="cn.com.gsli.model.maintext.MainText">
+		SELECT * FROM maintext where id=#{id}
+	</select>
+	<!-- 分页查询全部 -->
+	<select id="queryPage" resultType="cn.com.gsli.model.maintext.MainText"
+	parameterType="cn.com.gsli.model.maintext.Help"
+	>
+		SELECT * FROM maintext order by id desc limit #{currentItem},#{pageSize}
+	</select>
+	
+	<!-- 根据类型分页查询 -->
+	<select id="typePage" resultType="cn.com.gsli.model.maintext.MainText"
+	parameterType="cn.com.gsli.model.maintext.Help"
+	>
+		SELECT * FROM maintext where type=#{type} order by id desc limit #{currentItem},#{pageSize}
+	</select>
+	<!-- 修改 -->
+	<update id="save" parameterType="cn.com.gsli.model.maintext.MainText">
+		UPDATE maintext SET
+		title=#{title},context=#{context},date=#{date},type=#{type}
+		WHERE
+		id=#{id}
+	</update>
+	<delete id="delete" parameterType="int">
+		delete from maintext where id=#{id}
+	</delete>
+
+</mapper>
