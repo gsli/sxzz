@@ -13,7 +13,6 @@ import com.opensymphony.xwork2.ActionSupport;
 
 import cn.com.gsli.common.FileHelper;
 import cn.com.gsli.common.PageModel;
-import cn.com.gsli.model.fdyzq.Fdy;
 import cn.com.gsli.model.file.UploadFile;
 import cn.com.gsli.service.file.FileService;
 

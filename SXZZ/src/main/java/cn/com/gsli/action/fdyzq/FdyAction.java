@@ -15,6 +15,7 @@ import cn.com.gsli.common.PageModel;
 import cn.com.gsli.model.fdyzq.Fdy;
 import cn.com.gsli.service.fdyzq.FdyService;
 
+@Controller
 @Scope("prototype")
 public class FdyAction extends ActionSupport implements RequestAware {
 	private static final long serialVersionUID = 1L;
@@ -24,13 +25,54 @@ public class FdyAction extends ActionSupport implements RequestAware {
 	private String imageFileName;
 	private String grjj;
 	private String mess = "";
+	private String mess1 = "";
 	@Autowired
 	private FdyService fs;
 	private Fdy fdy;
 	
-	private Integer id;
+	private Integer id = -1;
 	private String img;
 	private Integer page;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getMotto() {
+		return motto;
+	}
+
+	public void setMotto(String motto) {
+		this.motto = motto;
+	}
+
+	public File getImage() {
+		return image;
+	}
+
+	public void setImage(File image) {
+		this.image = image;
+	}
+
+	public String getImageFileName() {
+		return imageFileName;
+	}
+
+	public void setImageFileName(String imageFileName) {
+		this.imageFileName = imageFileName;
+	}
+
+	public String getGrjj() {
+		return grjj;
+	}
+
+	public void setGrjj(String grjj) {
+		this.grjj = grjj;
+	}
 
 	public Fdy getFdy() {
 		return fdy;
@@ -52,7 +94,7 @@ public class FdyAction extends ActionSupport implements RequestAware {
 
 	//添加辅导员信息
 	public String addInfo() {
-		if(name.length() > 1 && motto.length() > 1 && grjj.length() > 10) {
+		if(name.length() > 1 && motto.length() > 1 && grjj.length() > 0) {
 			String imgPath = FileHelper.upload(image, imageFileName, FileHelper.root);
 			fdy = new Fdy(name,motto,grjj,imgPath);
 			int result = fs.addInfo(fdy);
@@ -79,6 +121,7 @@ public class FdyAction extends ActionSupport implements RequestAware {
 			page = 1;
 		}
 		PageModel<Fdy> model = fs.lookFdy(page);
+		//mess1 = "";
 		requestMap.put("model", model);
 		return SUCCESS;
 	}
@@ -118,9 +161,10 @@ public class FdyAction extends ActionSupport implements RequestAware {
 		}
 		fdy = new Fdy(id, name, motto, grjj, imgPath);
 		if(fs.updFdy(fdy) > 0){
+			mess1 = "修改成功。";
 			return SUCCESS;
 		}
-		mess="修改失败！";
+		mess1 = "修改失败！";
 		return ERROR;
 	}
 	
@@ -132,6 +176,21 @@ public class FdyAction extends ActionSupport implements RequestAware {
 		}
 		return SUCCESS;
 	}
+	
+	//前台辅导员页面
+		public String frontFdy() {
+			if(page == null) {
+				page = 1;
+			}
+			PageModel<Fdy> model = fs.lookFdy(page);
+			requestMap.put("model", model);
+			
+			if(id < 1) {
+				id = model.getData().get(0).getId();
+			}
+			xxFdy();
+			return SUCCESS;
+		}
 	
 	private Map<String, Object> requestMap;
 	public void setRequest(Map<String, Object> requestMap) {
@@ -160,6 +219,14 @@ public class FdyAction extends ActionSupport implements RequestAware {
 
 	public void setPage(Integer page) {
 		this.page = page;
+	}
+
+	public String getMess1() {
+		return mess1;
+	}
+
+	public void setMess1(String mess1) {
+		this.mess1 = mess1;
 	}
 
 }

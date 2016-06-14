@@ -141,26 +141,92 @@
     			<param name="namespace">Back</param>
     		</result>
     	</action>
+    	<!-- 影片欣赏 -->
+    	<action name="movie_see" class="movieAction" method="openMovie">
+    		<result>/WEB-INF/back/movie_see.jsp</result>
+    	</action>
+    	<action name="upload_movie" class="movieAction" method="uploadMovie">
+    		<result>/WEB-INF/back/movie_see.jsp</result>
+    		<result name="error">/WEB-INF/back/error_word.jsp</result>
+    		<interceptor-ref name="fileUpload">
+    			<!-- 配置允许上传的文件类型mp4,avi,wmv -->
+				<param name="allowedTypes">video/*</param>
+				<!-- 配置允许上传的文件大小 单位字节 500M=524288000B -->
+				<param name="maximumSize">524288000</param>
+    		</interceptor-ref>
+    		<interceptor-ref name="defaultStack"/>
+    	</action>
+    	<action name="delMovie" class="movieAction" method="delMovie">
+    		<result type="redirectAction">
+    			<param name="actionName">movie_see</param>
+    			<param name="namespace">Back</param>
+    		</result>
+    	</action>
+    	
+    	<!-- 活动视频 -->
+    	<action name="movie_act" class="movieAction" method="openAct">
+    		<result>/WEB-INF/back/movie_activity.jsp</result>
+    	</action>
+    	<action name="upload_act" class="movieAction" method="uploadAct">
+    		<result>/WEB-INF/back/movie_see.jsp</result>
+    		<result name="error">/WEB-INF/back/error_word.jsp</result>
+    		<interceptor-ref name="fileUpload">
+    			<!-- 配置允许上传的文件类型mp4,avi,wmv -->
+				<param name="allowedTypes">video/*</param>
+				<!-- 配置允许上传的文件大小 单位字节 500M=524288000B -->
+				<param name="maximumSize">524288000</param>
+    		</interceptor-ref>
+    		<interceptor-ref name="defaultStack"/>
+    	</action>
+    	<action name="delAct" class="movieAction" method="delMovie">
+    		<result type="redirectAction">
+    			<param name="actionName">movie_act</param>
+    			<param name="namespace">Back</param>
+    		</result>
+    	</action>
     </package>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <!-- 前台首页 -->
+    <!-- 前台 -->
     <package name="fro" namespace="/Front" extends="struts-default">
+    	<!-- 首页 -->
     	<action name="front">
     		<result>/WEB-INF/front/frontMain.jsp</result>
     	</action>
+    	<!-- 辅导员简介 -->
+    	<action name="fdyjj">
+    		<result>/WEB-INF/front/fdyjj.jsp</result>
+    	</action>
+    	<action name="look_fdy" class="fdyAction" method="frontFdy">
+    		<result>/WEB-INF/front/fdyjj.jsp</result>
+    	</action>
+    	<action name="xx_fdy" class="fdyAction" method="frontFdy">
+    		<result>/WEB-INF/front/fdyjj.jsp</result>
+    	</action>
+    	<!-- 相关下载 -->
+    	<action name="openPage" class="fileAction" method="openPage">
+	   		<result>/WEB-INF/front/xgxz.jsp</result>
+	    </action>
+	    <action name="openImg" class="fileAction" method="openImg">
+   			<result>/WEB-INF/front/xgxz_img.jsp</result>
+   		</action>
+   		<action name="openVedio" class="fileAction" method="openVedio">
+   			<result>/WEB-INF/front/xgxz_vedio.jsp</result>
+   		</action>
+   		<action name="download" class="fileDownload">
+   			<result type="stream">
+                <param name="bufferSize">5M</param>
+			</result>
+   		</action>
+   		<action name="download_word" class="fileDownload" method="download">
+   			<result type="stream">
+                <param name="bufferSize">100M</param>
+			</result>
+   		</action>
+   		<action name="download_vedio" class="fileDownload" method="download">
+   			<result type="stream">
+                <param name="bufferSize">500M</param>
+			</result>
+   		</action>
     </package>
     
     <include file="other.xml"></include>

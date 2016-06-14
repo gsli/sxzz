@@ -9,10 +9,10 @@
 <link href="/SXZZ/back/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="/SXZZ/back/js/upload.js"></script>
 <script type="text/javascript">
-	var mess = '${mess}';
+	/* var mess = '${mess1}';
 	if(mess.length > 3) {
 		alert(mess);
-	}
+	} */
 </script>
 </head>
 

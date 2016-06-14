@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.gsli">
+	<select id="allMovie" parameterType="int" resultType="cn.com.gsli.model.movie.Movie">
+		select * from movie where type=#{type}
+	</select>
+	<select id="pageMovie" parameterType="map" resultType="cn.com.gsli.model.movie.Movie">
+		select * from movie where type=#{type} order by id desc limit #{startPage},#{size}
+	</select>
+	<insert id="addMovie" parameterType="cn.com.gsli.model.movie.Movie">
+		insert into movie(name,title,date,type) values(#{name},#{title},#{date},#{type})
+	</insert>
+	<delete id="delMovie" parameterType="int">
+		delete from movie where id=#{id}
+	</delete>
+</mapper>

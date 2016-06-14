@@ -32,25 +32,17 @@ $(function(){
 </head>
 
 <body style="background:#f0f9fd;">
-	<div class="lefttop"><span></span>通讯录</div>
+	<div class="lefttop"><span></span>信息管理</div>
     
     <dl class="leftmenu">
         
     <dd>
     <div class="title">
-    <span><img src="/SXZZ/back/images/leftico01.png" /></span>管理信息
+    <span><img src="/SXZZ/back/images/leftico01.png" /></span>视频专区
     </div>
     	<ul class="menuson">
-        <li><cite></cite><a href="index.html" target="rightFrame">首页模版</a><i></i></li>
-        <li class="active"><cite></cite><a href="right.html" target="rightFrame">数据列表</a><i></i></li>
-        <li><cite></cite><a href="imgtable.html" target="rightFrame">图片数据表</a><i></i></li>
-        <li><cite></cite><a href="form.html" target="rightFrame">添加编辑</a><i></i></li>
-        <li><cite></cite><a href="imglist.html" target="rightFrame">图片列表</a><i></i></li>
-        <li><cite></cite><a href="imglist1.html" target="rightFrame">自定义</a><i></i></li>
-        <li><cite></cite><a href="tools.html" target="rightFrame">常用工具</a><i></i></li>
-        <li><cite></cite><a href="filelist.html" target="rightFrame">信息管理</a><i></i></li>
-        <li><cite></cite><a href="tab.html" target="rightFrame">Tab页</a><i></i></li>
-        <li><cite></cite><a href="error.html" target="rightFrame">404页面</a><i></i></li>
+        <li><cite></cite><a href="/SXZZ/Back/movie_see" target="rightFrame">影片欣赏</a><i></i></li>
+        <li><cite></cite><a href="/SXZZ/Back/movie_act" target="rightFrame">活动视频</a><i></i></li>
         </ul>    
     </dd>
         
@@ -62,7 +54,7 @@ $(function(){
     <ul class="menuson">
         <li><cite></cite><a href="#">辅导员情况</a><i></i></li>
         <li><cite></cite><a href="/SXZZ/Back/fdyjs" target="rightFrame">填写辅导员简介</a><i></i></li>
-        <li><cite></cite><a href="/SXZZ/Back/look_fdy" target="rightFrame">浏览修改辅导员信息</a><i></i></li>
+        <li><cite></cite><a href="/SXZZ/Back/look_fdy?mess1=''" target="rightFrame">浏览修改辅导员信息</a><i></i></li>
     </ul>     
     </dd> 
      <dd>

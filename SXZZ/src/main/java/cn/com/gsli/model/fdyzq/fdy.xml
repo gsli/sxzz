@@ -25,6 +25,6 @@
 	</update>
 <!-- 分页查询 -->
 	<select id="pageFdy" parameterType="map" resultType="cn.com.gsli.model.fdyzq.Fdy">
-		select * from fdy limit #{startPage},#{size}
+		select * from fdy order by id desc limit #{startPage},#{size}
 	</select>
 </mapper>

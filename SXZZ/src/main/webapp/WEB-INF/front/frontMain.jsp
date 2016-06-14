@@ -62,11 +62,11 @@
 				<li class="drop"><a href="#">辅导员专区</a>
 				<ul class="sub_menu">
 						<li><a href="#">辅导员情况</a></li>
-						<li><a href="#">辅导员简介</a></li>
+						<li><a href="/SXZZ/Front/look_fdy">辅导员简介</a></li>
 					</ul></li>
 				<li><a href="#">成才导航</a></li>
 				<li><a href="#">易班社区</a></li>
-				<li><a href="#">相关下载</a></li>
+				<li><a href="/SXZZ/Front/openPage">相关下载</a></li>
 			</ul>
 			</nav>
 												</div>
@@ -5026,7 +5026,6 @@ var _faiAjax = function(){
 					o.error();
 				}
 			}
-			xmlhttp.send(o.data);
 		}
 	}
 	return {
@@ -5082,53 +5081,14 @@ var _devMode = false;
 var _colOtherStyleData = {"independentList":[],"layout4Width":357,"layout5Width":369,"y":0,"h":0};						// 当前页面的数据    
 var _templateOtherStyleData = {"independentList":[],"h":924,"y":0,"layout4Width":0,"layout5Width":0};						// 全局的数据
 $(function() {
-	
-	Site.changeTheLogoSize();
-	Site.showOrHideMailBox();
-	
-
-    	
-	var hasLoginSite = $.cookie('hasLoginSite');
-	if(hasLoginSite == "true" && hasLoginSite != null){	
-		$.cookie('hasLoginSite','false', { expires: 1, path: '/' } );
-		Site.changeAdmHref('gaojiangwei','faisco.cn');
-	}
-	if(false){
-		Fai.ing("",true);
-	}
-	//topBarMember 
-	
-	
-	// 管理态下, QQ/微博登陆 禁止登陆
-	if( _manageMode ) {
-		$('#memberBar .l_Btn').click(function(){
-			Fai.ing('您目前处于网站管理状态，请先点击网站右上方的“退出”后再登录会员。', true);
-		});
-		//绑定放大镜遮罩效果事件
-		Site.bindEventToOverLayer();		
-	}
-	
-	
 	// 绑定退出事件
 	$(window).bind("beforeunload", function(e) { 
 		 
 			if(bgmCloseToOpen){
 				Site.bgmFlushContinue();
 			}	
-	
-	
-		
-	
-	
-	
 	});
 	Site.initTemplateLayout(1, true, false );
-	// spider统计
-	
-
-
-
-	
 	// ajax统计
 	Site.total({colId:2, pdId:-1, ndId:-1, sc:0, rf:"http://gaojiangwei.faisco.cn/"});
 	//前端性能数据上报
